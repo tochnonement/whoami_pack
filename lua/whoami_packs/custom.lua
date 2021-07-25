@@ -22,9 +22,9 @@
 local CATEGORY = "Fruits"
 
 if CLIENT then
-    whoi.lang.add("russian", CATEGORY, "Фрукты")
-    whoi.lang.add("german", CATEGORY, "Frucht")
-    whoi.lang.add("italian", CATEGORY, "Frutta")
+    whoi.lang.addPhrase("russian", CATEGORY, "Фрукты")
+    whoi.lang.addPhrase("german", CATEGORY, "Frucht")
+    whoi.lang.addPhrase("italian", CATEGORY, "Frutta")
 end
 
 whoi.word.register("apple")
